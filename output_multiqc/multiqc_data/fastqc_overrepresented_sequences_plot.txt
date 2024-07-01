@@ -1,0 +1,3 @@
+Sample	Top overrepresented sequence	Sum of remaining overrepresented sequences
+example_1	1.5151515151515151	98.4848484848485
+example_2	1.0101010101010102	98.989898989899

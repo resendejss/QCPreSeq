@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	example_1	/mnt/c/Users/jeans/OneDrive/Documentos/GitHub/QCPreSeq/output_fastqc/example_1_fastqc.zip
+FastQC	all_sections	example_2	/mnt/c/Users/jeans/OneDrive/Documentos/GitHub/QCPreSeq/output_fastqc/example_2_fastqc.zip

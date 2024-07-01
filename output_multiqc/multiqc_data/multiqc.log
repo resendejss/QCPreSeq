@@ -1,0 +1,5 @@
+[2024-07-01 17:51:36,045] multiqc.core.file_search                           [INFO   ]  Search path: /mnt/c/Users/jeans/OneDrive/Documentos/GitHub/QCPreSeq/output_fastqc
+[2024-07-01 17:51:36,467] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 2 reports
+[2024-07-01 17:51:37,999] multiqc.core.write_results                         [INFO   ]  Data        : output_multiqc/multiqc_data
+[2024-07-01 17:51:38,486] multiqc.core.write_results                         [INFO   ]  Report      : output_multiqc/multiqc_report.html
+[2024-07-01 17:51:38,497] multiqc.multiqc                                    [INFO   ]  MultiQC complete
