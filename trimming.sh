@@ -55,14 +55,12 @@ mkdir -p "$output_dir"
 # Check if Trimmomatic is installed
 check_trimmomatic
 
-for file in "$1"/*.{fq,fastq,fastq.gz}; do
-
 # Loop to process each pair of R1 and R2 files found in the input folder
 for r1_file in "$input_dir"/*_R1.{fq,fastq,fastq.gz}; do
     r2_file="${r1_file/_R1/_R2}"
     
     if [ -f "$r2_file" ]; then
-        echo ""Processing $r1_file and $r2_file with Trimmomatic ..."
+        echo "Processing $r1_file and $r2_file with Trimmomatic ..."
         
         # Constrói os nomes de saída baseados nos nomes dos arquivos de entrada
         sample_name=$(basename "$r1_file" | cut -d'_' -f1)
